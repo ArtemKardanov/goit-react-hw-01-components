@@ -1,0 +1,36 @@
+.statistics {
+  width: 300px;
+}
+
+.statList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: large;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.item {
+  background-color: indianred;
+  width: 25%;
+  text-align: center;
+}
+
+.item:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.label {
+  font-size: 12px;
+  display: block;
+}
+
+.percentage {
+  font-size: 20px;
+  display: block;
+}
